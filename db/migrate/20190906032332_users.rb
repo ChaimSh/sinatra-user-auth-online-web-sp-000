@@ -5,6 +5,6 @@ class Users < ActiveRecord::Migration[5.2]
      t.string :email
      t.string :password
 
-    
+
   end
 end
