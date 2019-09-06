@@ -10,6 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_06_014227) do
+ActiveRecord::Schema.define(version: 2019_09_06_032332) do
+
+  create_table "songs", force: :cascade do |t|
+    t.string "name"
+    t.string "email"
+    t.string "password"
+  end
 
 end
